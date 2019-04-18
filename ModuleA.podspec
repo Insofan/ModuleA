@@ -14,12 +14,12 @@ Pod::Spec.new do |spec|
 
   spec.author       = { "Insofan" => "282132315@qq.com" }
 
-  spec.source       = { :git => "https://github.com/Insofan/ModuleA.git", :tag => s.version.to_s }
+  spec.source       = { :git => 'https://github.com/Insofan/ModuleA.git', :tag => spec.version.to_s }
 
   spec.platform     = :ios, "8.0"
 
-  spec.subspec 'Controller' do |s|
-    s.source_files  = "ModuleA/Controller/**/*.{h,m}"
+  spec.subspec 'Controller' do |ss|
+    ss.source_files  = "ModuleA/Controller/**/*.{h,m}"
   end
 
 end
