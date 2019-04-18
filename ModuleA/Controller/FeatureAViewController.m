@@ -18,6 +18,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.title = @"模块A 功能A";
+    self.view.backgroundColor = [UIColor redColor];
 }
 
 /*
