@@ -22,4 +22,9 @@ Pod::Spec.new do |spec|
     ss.source_files  = "ModuleA/Controller/**/*.{h,m}"
   end
 
+  spec.subspec 'Target' do |ss|
+    ss.source_files  = "ModuleA/Target/**/*.{h,m}"
+    ss.dependency "ModuleA/Controller"
+  end
+
 end

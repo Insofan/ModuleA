@@ -10,6 +10,7 @@
 		2E5F8E059B0D8A076D4E10AB /* Pods_ModuleA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4BFE34C9BD94FE55808614F /* Pods_ModuleA.framework */; };
 		E6682AB2226868C600B95FE6 /* ModuleAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6682AB1226868C600B95FE6 /* ModuleAViewController.m */; };
 		E6682AB5226868F600B95FE6 /* FeatureAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6682AB4226868F600B95FE6 /* FeatureAViewController.m */; };
+		E6682AB92268730E00B95FE6 /* Target_ModuleA.m in Sources */ = {isa = PBXBuildFile; fileRef = E6682AB82268730E00B95FE6 /* Target_ModuleA.m */; };
 		E66E20F5226817BB0044B764 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E66E20F4226817BB0044B764 /* AppDelegate.m */; };
 		E66E20F8226817BB0044B764 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E66E20F7226817BB0044B764 /* ViewController.m */; };
 		E66E20FB226817BB0044B764 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E66E20F9226817BB0044B764 /* Main.storyboard */; };
@@ -26,6 +27,8 @@
 		E6682AB1226868C600B95FE6 /* ModuleAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModuleAViewController.m; sourceTree = "<group>"; };
 		E6682AB3226868F600B95FE6 /* FeatureAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeatureAViewController.h; sourceTree = "<group>"; };
 		E6682AB4226868F600B95FE6 /* FeatureAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeatureAViewController.m; sourceTree = "<group>"; };
+		E6682AB72268730E00B95FE6 /* Target_ModuleA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_ModuleA.h; sourceTree = "<group>"; };
+		E6682AB82268730E00B95FE6 /* Target_ModuleA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_ModuleA.m; sourceTree = "<group>"; };
 		E66E20F0226817BB0044B764 /* ModuleA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModuleA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E66E20F3226817BB0044B764 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E66E20F4226817BB0044B764 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -78,6 +81,15 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		E6682AB6226872EA00B95FE6 /* Target */ = {
+			isa = PBXGroup;
+			children = (
+				E6682AB72268730E00B95FE6 /* Target_ModuleA.h */,
+				E6682AB82268730E00B95FE6 /* Target_ModuleA.m */,
+			);
+			path = Target;
+			sourceTree = "<group>";
+		};
 		E66E20E7226817BB0044B764 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +111,7 @@
 		E66E20F2226817BB0044B764 /* ModuleA */ = {
 			isa = PBXGroup;
 			children = (
+				E6682AB6226872EA00B95FE6 /* Target */,
 				E6682AAF226868A900B95FE6 /* Controller */,
 				E66E20F3226817BB0044B764 /* AppDelegate.h */,
 				E66E20F4226817BB0044B764 /* AppDelegate.m */,
@@ -211,6 +224,7 @@
 			files = (
 				E6682AB2226868C600B95FE6 /* ModuleAViewController.m in Sources */,
 				E66E20F8226817BB0044B764 /* ViewController.m in Sources */,
+				E6682AB92268730E00B95FE6 /* Target_ModuleA.m in Sources */,
 				E66E2103226817BB0044B764 /* main.m in Sources */,
 				E66E20F5226817BB0044B764 /* AppDelegate.m in Sources */,
 				E6682AB5226868F600B95FE6 /* FeatureAViewController.m in Sources */,
