@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "ModuleA"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "A short description of ModuleA."
   spec.description  = <<-DESC
   A short description of ModuleA.
@@ -19,8 +19,8 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "8.0"
 
   spec.subspec 'Controller' do |ss|
-    ss.source_files  = "ModuleA/Controller/**/*.{h,m}"
-  end
+      ss.source_files  = "ModuleA/Controller/**/*.{h,m}"
+    end
 
   spec.subspec 'Target' do |ss|
     ss.source_files  = "ModuleA/Target/**/*.{h,m}"
